@@ -1,4 +1,4 @@
-# jJogo da Onça.
+# Jogo da Onça.
 # Este é um jogo muito antigo aqui no Brasil e que representa muito para mim, porque foi meu pai quem me ensinou quando eu era ainda criança.
 # Nossos índios desenhavam o tabuleiro riscando o chão e usavam sementes para representar a onça e os cachorros.
 # Originalmente, era para dois jogadores, mas aqui o computador controla a onça (peça vermelha) e o jogador controla os cachorros (peças azuis).
