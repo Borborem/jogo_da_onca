@@ -152,9 +152,7 @@ var select = function(value){
 };
 
 
-/************************************MONSTER*****************************/
-
-						
+/************************************MONSTER*****************************/					
 	
 	var monsterPosition = 12;
 		
@@ -393,229 +391,23 @@ function verifyMovement(movement){
 		else{return false};		
 }
 
+elements = document.querySelectorAll('circle');
+
 $(document).ready(function(){
+
+	elements = document.querySelectorAll('circle');
+	elements.forEach(element => {
+		element.addEventListener("click",(event)=>{
+			let val = event.target.id.substr(1,2);
+			select(val)
+		})
+	});
 
 	$("#b00").click(function(){
         $(this).hide();
 		setTimeout(initiate,400)
     });                               
 	
-    $("#c00").click(function(){
-        //$(this).hide();
-		var val="00";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c01").click(function(){
-     
-		var val="01";
-		console.log(val);
-		select(val);
-		
-    });
-	
-	$("#c02").click(function(){
-     
-		var val="02";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c03").click(function(){
-        //$(this).hide();
-		var val="03";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c04").click(function(){
-        //$(this).hide();
-		var val="04";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c05").click(function(){
-        //$(this).hide();
-		var val="05";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c06").click(function(){
-        //$(this).hide();
-		var val="06";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c07").click(function(){
-        //$(this).hide();
-		var val="07";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c08").click(function(){
-        //$(this).hide();
-		var val="08";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c09").click(function(){
-        //$(this).hide();
-		var val="09";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c10").click(function(){
-        //$(this).hide();
-		var val="10";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c11").click(function(){
-        //$(this).hide();
-		var val="11";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c12").click(function(){
-        //$(this).hide();
-		var val="12";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c13").click(function(){
-        //$(this).hide();
-		var val="13";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c14").click(function(){
-        //$(this).hide();
-		var val="14";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c15").click(function(){
-        //$(this).hide();
-		var val="15";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c16").click(function(){
-        //$(this).hide();
-		var val="16";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c17").click(function(){
-        //$(this).hide();
-		var val="17";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c18").click(function(){
-        //$(this).hide();
-		var val="18";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c19").click(function(){
-        //$(this).hide();
-		var val="19";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c20").click(function(){
-        //$(this).hide();
-		var val="20";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c21").click(function(){
-        //$(this).hide();
-		var val="21";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c22").click(function(){
-        //$(this).hide();
-		var val="22";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c23").click(function(){
-        //$(this).hide();
-		var val="23";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c24").click(function(){
-        //$(this).hide();
-		var val="24";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c25").click(function(){
-        //$(this).hide();
-		var val="25";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c26").click(function(){
-        //$(this).hide();
-		var val="26";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c27").click(function(){
-        //$(this).hide();
-		var val="27";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c28").click(function(){
-        //$(this).hide();
-		var val="28";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c29").click(function(){
-        //$(this).hide();
-		var val="29";
-		console.log(val);
-		select(val);
-    });
-	
-	$("#c30").click(function(){
-        //$(this).hide();
-		var val="30";
-		console.log(val);
-		select(val);
-    });
+
 		
 });
